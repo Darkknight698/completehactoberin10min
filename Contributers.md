@@ -1,3 +1,3 @@
-name
-place 
+name: Muhammed  Rameez
+place netoor
 bio:student
