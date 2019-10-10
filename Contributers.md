@@ -1,3 +1,3 @@
-name
-place 
-bio:student
+name:Shaurya Singh
+place :Delhi
+bio:student of B.Tech
