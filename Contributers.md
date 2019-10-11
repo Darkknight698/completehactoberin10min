@@ -1,3 +1,3 @@
-name
-place 
-bio:student
+name: Nilesh Das
+place: Raipur 
+bio: student
