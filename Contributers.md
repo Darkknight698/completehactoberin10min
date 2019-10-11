@@ -1,3 +1,3 @@
-name
-place 
-bio:student
+Raman Kumar
+Dhanbad,Jharkhand
+Bio: college student(CSE)
