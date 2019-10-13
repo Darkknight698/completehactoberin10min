@@ -1,0 +1,16 @@
+// Program to enter an integer and display it 
+
+#include <stdio.h>
+int main()
+{
+    int number;
+
+    printf("\nEnter an integer:");
+
+
+    scanf("%d",&number);
+
+
+    printf("You entered: %d", number);
+    return 0;
+}
