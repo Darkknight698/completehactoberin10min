@@ -3,10 +3,10 @@ int main()
 {
     int number;
    
-    prin("Enter an integer: ")
+    prin("Enter an integer:")
     
    
-    scanf("%d", &number);  
+    scanf("%d",&number);  
     
   
     printf("You entered: %d", number);
