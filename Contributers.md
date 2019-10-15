@@ -12,4 +12,7 @@ name: Nilesh Das
 place: Raipur 
 bio: student
 
-
+=====
+Name : Bhagya Rana (https://github.com/BhagyaRana)
+Place : Surat
+Bio : B.Tech CSE At NIT,Surat
