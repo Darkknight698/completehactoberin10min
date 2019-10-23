@@ -1,3 +1,8 @@
+//Algo
+Calculate each character and iterate loop i till 
+null(\0) character is not encountered
+//
+
 #include <stdio.h>
 int main()
 {
