@@ -4,7 +4,7 @@ int main()
     int number;
     print("Enter an integer: ");
     scanf("%d", &number)
-    if(number % 2 == 0)
+    if(number % 2 == 0)  //any number if divisible by 2 is even
         printf("%d is even ", number);
     else
         printf("%d is odd ", number);
