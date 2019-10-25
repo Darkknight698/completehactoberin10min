@@ -12,4 +12,8 @@ name: Nilesh Das
 place: Raipur 
 bio: student
 
+name: Sharath
+Place: Mangalore
+Bio: BE. CSE 4th year
+
 
