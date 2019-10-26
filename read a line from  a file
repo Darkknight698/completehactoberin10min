@@ -3,7 +3,7 @@
 int main()
 {
     char c[1000];
-    FILE *fptr
+    FILE *fptr;
     if ((fptr = fopen("program.txt", "r")) == NULL)
     {
         printf("Error! opening file");
@@ -13,7 +13,7 @@ int main()
     // reads text until newline 
     fscanf(fptr,"%[^\n]", c);
     printf("Data from the file:\n%s", c);
-    close(fptr)
+    close(fptr);
     
    
 }
