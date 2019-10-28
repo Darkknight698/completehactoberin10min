@@ -9,22 +9,25 @@
 
 //PROGRAM
 
-    #include<stdio.h>  
-    int main()    
-    {    
-    int n,r,sum=0,temp;    
-    printf("enter the number=");    
-    scanf("%d",&n);    
-    temp=n;    
-    while(n>0)    
-    {    
-    r=n%10;    
-    sum=(sum*10)+r;    
-    n=n/10;    
-    }    
-    if(temp==sum)    
-    printf("palindrome number ");    
-    else    
-    printf("not palindrome");   
-    return 0;  
-    }   
+#include <stdio.h>
+int main()
+{
+    int n, reversedInteger = 0, remainder, originalInteger;
+    printf("Enter an integer: ");
+    scanf("%d", &n);
+    originalInteger = n;
+     
+    while( n!=0 )
+    {
+        remainder = n%10;
+        reversedInteger = reversedInteger*10 + remainder;
+        n /= 10;
+    }
+  
+    if (originalInteger == reversedInteger)
+        printf("%d is a palindrome.", originalInteger);
+    else
+        printf("%d is not a palindrome.", originalInteger);
+    
+    return 0;
+} 
