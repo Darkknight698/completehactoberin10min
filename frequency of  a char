@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main()
 {
-   char str[1000], ch;
-   int i, frequency = 0;
-   printf("Enter a string: ");
-   gets(str);
-   printf("Enter a character to find the frequency: ");
+   char s[1000], ch;
+   int i, f = 0;
+   printf("Enter a user string : ");
+   gets(s);
+   printf("Enter a character you want to  find the frequency: ");
    scanf("%c",&ch);
-   for(i = 0; str[i] != '\0'; ++i)
+   for(i = 0; s[i] != '\0'; ++i)
    {    
-       if(ch == str[i])
-           frequency++;
+       if(ch == s[i])
+           f++;
    }
-   printf("Frequency of %c = %d", ch, frequency);
+   printf("Frequency of %c = %d", ch, f);
    return 0;
 }
