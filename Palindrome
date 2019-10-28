@@ -18,7 +18,7 @@
     temp=n;    
     while(n>0)    
     {    
-    r=n%10;    
+    r=n%10;    //getting last digit of the number
     sum=(sum*10)+r;    
     n=n/10;    
     }    
