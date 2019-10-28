@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int number;
+    int num;
    
-    prin("Enter an integer:")
+    prin("Enter the integer:")
     
    
-    scanf("%d",&number);  
+    scanf("%d",&num);  
     
   
-    printf("You entered: %d", number);
+    printf("Output is: %d", num);
     return 0;
 }
