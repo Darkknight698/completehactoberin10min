@@ -1,3 +1,5 @@
+//First step towards programming
+
 #include <stdio.h>
 int main()
 {
