@@ -3,6 +3,7 @@ int main()
 {
     char s1[100], s2[100], i;
     print("Enter string s1: ")
+     print("Enter string s2: ")
     scan("%s",s1);
     for(i = 0; s1[i] != '\0'; ++i)
     {
