@@ -3,10 +3,10 @@ int main()
 {
    char str[1000], ch;
    int i, frequency = 0;
-   printf("Enter a string: ");
+   printf("Enter a string: ");                                        //entering the string which need to check
    gets(str);
-   printf("Enter a character to find the frequency: ");
-   scanf("%c",&ch);
+   printf("Enter a character to find the frequency: ");               
+   scanf("%c",&ch);                                                   //entering the character 
    for(i = 0; str[i] != '\0'; ++i)
    {    
        if(ch == str[i])
