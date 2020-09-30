@@ -11,5 +11,10 @@ Bio: college student(CSE)
 name: Nilesh Das
 place: Raipur 
 bio: student
+=======
+
+name: Sharath Majjigi
+place: Karnataka
+bio:btech cse 3rd sem student
 
 
