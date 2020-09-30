@@ -1,0 +1,34 @@
+Algrorithm:
+--> take input of number of disks and their tower id
+--> call the function of toh in main and close the main function
+--> so expectation is we need to transfer all the disks from t1 --> t2 with the help of t3
+--> now we beleive that recursion knows how to transfer (D - 1) disks from t1 --> t3 with the help of t2
+--> now manually transfer the dth disk from t1 --> t2
+--> now again call the function to transfer the disks from t3 --> t2 with the help of t1
+--> now last base condition is if d becomes zero(no of disks) then simply return from the function
+
+import java.util.*;
+import java.io.*;
+
+public class TowerOfHanoi{
+public static void main(String[],args){
+Scanner sc = new Scanner(System.in);
+int d = sc.nextInt();
+int t1 = sc.nextInt();
+int t2 = sc.nextInt();
+int t3 = sc.nextInt();
+toh(d,t1,t2,t3);
+}
+   public static void toh(int d, int t1id, int t2id, int t3id){
+        if(n==0){
+            return;
+        }
+        
+        toh(d-1,t1id,t3id,t2id);
+        
+        System.out.println( d +"[" + t1id + " -> " + t2id + "]");
+        
+        toh(d-1,t3id,t2id,t1id);
+    }
+
+}
