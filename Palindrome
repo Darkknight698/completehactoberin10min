@@ -9,7 +9,8 @@
 
 //PROGRAM
 
-    #include<stdio.h>  
+    #include<stdio.h>
+    #include <iostream>
     int main()    
     {    
     int n,r,sum=0,temp;    
