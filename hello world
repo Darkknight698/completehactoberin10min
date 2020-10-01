@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-  
+  // this is program to simply print hello world
    printf("Hello, World!");
+   printf("welcome in the world of coding");
    return 0;
 }
