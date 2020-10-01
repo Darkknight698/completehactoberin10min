@@ -22,9 +22,6 @@
     sum=(sum*10)+r;    
     n=n/10;    
     }    
-    if(temp==sum)    
-    printf("palindrome number ");    
-    else    
-    printf("not palindrome");   
+    temp==sum ? printf("palindrome number ")  : printf("not palindrome");   
     return 0;  
     }   
