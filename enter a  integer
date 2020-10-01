@@ -1,9 +1,11 @@
+\\ code is for adding intiger 
+\\ you have nice youtube channel 
 #include <stdio.h>
 int main()
 {
     int number;
    
-    prin("Enter an integer:")
+    prin("Enter an integer:\n")
     
    
     scanf("%d",&number);  
