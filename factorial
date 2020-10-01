@@ -17,10 +17,11 @@ step 8. Stop
 int main()
 {
  int n,i,fact=1;
- printf("Enter any number : ");
+ printf("Enter any number :");
  scanf("%d", &n);
+ //program helps to find the factorial of a number
  for(i=1; i<=n; i++)
     fact = fact * i;
- printf("Factorial value of %d = %d",n,fact);
+ printf("Factorial of %d = %d",n,fact);
  return 0;
 }
