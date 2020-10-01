@@ -1,9 +1,9 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
     int number;
-    print("Enter an integer: ");
-    scanf("%d", &number)
+    printf("Enter an integer: ");
+    scanf("%d", &number);
     if(number % 2 == 0)
         printf("%d is even ", number);
     else
