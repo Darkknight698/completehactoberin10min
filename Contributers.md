@@ -12,4 +12,7 @@ name: Nilesh Das
 place: Raipur 
 bio: student
 
+name: Dev Gupta
+place: Kolkata
+bio: student
 
