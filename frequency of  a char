@@ -2,16 +2,16 @@
 int main()
 {
    char str[1000], ch;
-   int i, frequency = 0;
+   int i, frequen = 0;
    printf("Enter a string: ");
    gets(str);
-   printf("Enter a character to find the frequency: ");
+   printf("Enter a character to find the frequen: ");
    scanf("%c",&ch);
    for(i = 0; str[i] != '\0'; ++i)
    {    
        if(ch == str[i])
-           frequency++;
+           frequen++;
    }
-   printf("Frequency of %c = %d", ch, frequency);
+   printf("Frequen of %c = %d", ch, frequen);
    return 0;
 }
