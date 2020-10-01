@@ -2,13 +2,8 @@
 int main()
 {
     int number;
-   
-    prin("Enter an integer:")
-    
-   
+    prinf("Enter an integer:");
     scanf("%d",&number);  
-    
-  
-    printf("You entered: %d", number);
+    printf("\nYou entered: %d", number);
     return 0;
 }
