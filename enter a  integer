@@ -1,14 +1,17 @@
 #include <stdio.h>
 int main()
-{
+{   
+    //Creating a variable to store value of type integer
     int number;
    
-    prin("Enter an integer:")
+    //Displaying "Enter an integer: " on the screen
+    printf("Enter an integer: ")
     
-   
+    //Taking the user input
     scanf("%d",&number);  
     
-  
+    //Displaying the number entered on the screen
     printf("You entered: %d", number);
+    
     return 0;
 }
