@@ -1,4 +1,4 @@
-//Program to find odd or even
+// Program to find odd or even
 
 #include <stdio.h>
 int main()
