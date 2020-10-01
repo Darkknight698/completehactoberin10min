@@ -2,10 +2,14 @@
 int main()
 {
     int number;
-    print("Enter an integer: ");
+    printf("Enter an integer: ");
     scanf("%d", &number)
+    
+    //If number is divisible  by 2 then even
     if(number % 2 == 0)
         printf("%d is even ", number);
+    
+    // if not then it is odd
     else
         printf("%d is odd ", number);
     return 0;
