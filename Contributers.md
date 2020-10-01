@@ -11,5 +11,9 @@ Bio: college student(CSE)
 name: Nilesh Das
 place: Raipur 
 bio: student
+=======
 
-
+name: Vikas Singh
+place :Faridabad, Haryana
+bio: Active Open Source Contributor
+=======
