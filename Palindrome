@@ -15,13 +15,15 @@
     int n,r,sum=0,temp;    
     printf("enter the number=");    
     scanf("%d",&n);    
-    temp=n;    
+    temp=n;  
+    //Reverse the string
     while(n>0)    
     {    
     r=n%10;    
     sum=(sum*10)+r;    
     n=n/10;    
     }    
+   //Check if reverse string is equal to orignal string
     if(temp==sum)    
     printf("palindrome number ");    
     else    
