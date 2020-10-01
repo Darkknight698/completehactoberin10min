@@ -3,7 +3,7 @@ int main()
 {
     int number;
    
-    printf("Enter an integer:");
+    printf("\nEnter an integer:");
     
    
     scanf("%d",&number);  
