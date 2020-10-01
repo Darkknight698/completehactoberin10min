@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title style="sherif">
+    this is my first site</title>
+<head>
+    <head>
+
+    </head>
+<body>
+
+<h1>welcome here</h1>
+   <li>vedant</li>
+    <li>ranveer</li>
+
+<h6>welcome here</h6>
+<p> this is a paragraph </p>
+<ol type="i">
+    <li><a href="www.brainly.in">go to brainly</a></li>
+    <li>vedant</li>
+    <li>ranveer</li>
+
+</ol>
+<!-- this is comment -->
+<ul>
+    <li> item</li>
+    <li>vedant</li>
+    <li>ranveer</li>
+
+
+</ul>
+<br><button> click here to explore</button>
+        <IMG src="1stimg.png"/>
+
+<form>
+entre your comments:<input type="text">
+ entre your email address:<input type="email">
+
+    <br><button type="submit">submit form</button>
+</form>
+<br/>
+<table style="width:100%;border:10px solid red">
+    <caption> Code with sk</caption>
+    <tr>
+        <th>name</th>
+        <th>role</th>
+        <th>company</th>
+    </tr>
+
+
+    <tr>
+        <th>sheyas</th>
+        <th>innovative dept.</th>
+        <th>mmindot</th>
+         <tr>
+        <th>vedu</th>
+        <th>developer</th>
+        <th>mmindot</th>
+     <tr>
+        <th>parth</th>
+        <th>creativity dept.</th>
+        <th>mmindot</th>
+
+
+    </tr>
+</table>
+</body>
+</head>
+</html>
