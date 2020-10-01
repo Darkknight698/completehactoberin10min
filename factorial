@@ -16,11 +16,11 @@ step 8. Stop
 #include<conio.h>
 int main()
 {
- int n,i,fact=1;
+ int n,i,facto=1;
  printf("Enter any number : ");
  scanf("%d", &n);
  for(i=1; i<=n; i++)
-    fact = fact * i;
- printf("Factorial value of %d = %d",n,fact);
+    facto = facto * i;
+ printf("Factorial value of %d = %d",n,facto);
  return 0;
 }
