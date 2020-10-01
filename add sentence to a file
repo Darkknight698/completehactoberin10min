@@ -7,7 +7,7 @@ int main()
    ptr = fopen("program.txt", "w");
    if(fptr == NULL)
    {
-      printf("Error!");
+      printf("Error");
       exit(1);
    }
    
