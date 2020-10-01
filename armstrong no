@@ -6,6 +6,9 @@ Step 4: Divide the number by 10
 Step 5: Repeat the step 2 while number is greater than 0
 
 //PROGRAM BELOW
+#include <iostream>
+using namespace std;
+
 #include <stdio.h>
 int main()
 {
