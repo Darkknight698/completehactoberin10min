@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    char s[1000];
-    int i;
+    char a[500];
+    int j;
     printf("Enter a string:");
-    scanf("%s", s);
-    for(i = 0; s[i] != '\0'; ++i);
-    printf("Length of string: %d", i);
+    scanf("%s", a);
+    for(j = 0; a[j] != '\0'; ++j);
+    printf("Length of string: %d", j);
     return 0;
 }
