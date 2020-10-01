@@ -1,7 +1,7 @@
 
-name:Shaurya Singh
-place :Delhi
-bio:student of B.Tech
+name:vijay singhv
+place :rajasthan
+bio:student of B.Tech computer science
 =======
 
 Raman Kumar
