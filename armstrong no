@@ -10,7 +10,7 @@ Step 5: Repeat the step 2 while number is greater than 0
 int main()
 {
     int number, originalNumber, remainder, result = 0;
-    print("Enter a three digit integer: ");
+    printf("Enter a three digit integer: ");
     scan("%d", &number);
     originalNumber = number;
     while (originalNumber != 0)
@@ -26,4 +26,4 @@ int main()
  
 }
 
-//PROGRAM IN PYTHON
+//PROGRAM IN C
