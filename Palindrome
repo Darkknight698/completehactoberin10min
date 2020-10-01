@@ -28,3 +28,9 @@
     printf("not palindrome");   
     return 0;  
     }   
+// Simple Python Program to check palindrom
+str = input("Enter a string or number: ") 
+if str == str[::-1]: 
+    print("Palindrome") 
+else: 
+    print("Not a palindrome") 
