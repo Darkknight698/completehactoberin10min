@@ -1,3 +1,5 @@
+//This is a program to count the frequency of a char
+
 #include <stdio.h>
 int main()
 {
