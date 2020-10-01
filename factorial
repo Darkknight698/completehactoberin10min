@@ -11,16 +11,20 @@ step 7. Print fact
 step 8. Stop
 
 //PROGRAM
-
-#include<stdio.h>
 #include<conio.h>
-int main()
+#include<stdio.h>
+void main()
 {
- int n,i,fact=1;
- printf("Enter any number : ");
- scanf("%d", &n);
- for(i=1; i<=n; i++)
-    fact = fact * i;
- printf("Factorial value of %d = %d",n,fact);
- return 0;
+	int n,i;
+	long int f=1;
+	
+	printf("enter the number tobe entered");
+	scanf("%d",&n);
+	
+	for(i=1;i<=n;i++)
+	{
+	f=f*i;
+    }
+    printf("factorial=%d",f);
+    getch();
 }
