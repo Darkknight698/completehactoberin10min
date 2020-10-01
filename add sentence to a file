@@ -15,5 +15,5 @@ int main()
    gets(sentence);
    printf(fptr,"%s", sentence);
    close(fptr);
-
+   return 0;
 }
