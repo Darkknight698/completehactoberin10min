@@ -12,15 +12,15 @@
     #include<stdio.h>  
     int main()    
     {    
-    int n,r,sum=0,temp;    
+    int n,r,sum=0,temp;    //getting four numbers 1. get main number 2. To find reverse number 3. to get sum 4. to assign original number for checking
     printf("enter the number=");    
-    scanf("%d",&n);    
+    scanf("%d",&n);    // getting main number
     temp=n;    
     while(n>0)    
     {    
-    r=n%10;    
-    sum=(sum*10)+r;    
-    n=n/10;    
+    r=n%10;    // getting reverse number
+    sum=(sum*10)+r;    // finding sum
+    n=n/10;    // changing original number
     }    
     if(temp==sum)    
     printf("palindrome number ");    
