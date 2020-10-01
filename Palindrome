@@ -13,7 +13,7 @@
     int main()    
     {    
     int n,r,sum=0,temp;    
-    printf("enter the number=");    
+    printf("Enter the number = ");    
     scanf("%d",&n);    
     temp=n;    
     while(n>0)    
@@ -23,8 +23,8 @@
     n=n/10;    
     }    
     if(temp==sum)    
-    printf("palindrome number ");    
+    printf("A palindrome number\n");    
     else    
-    printf("not palindrome");   
+    printf("Not a palindrome number\n");   
     return 0;  
     }   
