@@ -13,3 +13,6 @@ place: Raipur
 bio: student
 
 
+Name: Ajeet Patel 
+Place: Prayagraj 
+Bio: Student 
