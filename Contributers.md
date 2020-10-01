@@ -1,3 +1,7 @@
+name:Ujwal Gulhane
+place:Warud,Amravati,Maharashtra
+bio:Student of B.E(CSE)
+
 
 name:Shaurya Singh
 place :Delhi
