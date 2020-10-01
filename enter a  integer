@@ -1,3 +1,4 @@
+//ALGORITM FOR TAKING A INTEGER
 #include <stdio.h>
 int main()
 {
