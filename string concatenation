@@ -2,7 +2,7 @@
 int main()
 {
     char s1[100], s2[100], i, j;
-    printf("Enter first string: ");
+    printf("Enter first string here: ");
     scanf("%s", s1);
     printf("Enter second string: ");
     scanf("%s", s2);
