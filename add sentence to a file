@@ -4,7 +4,7 @@ int main()
 {
    char sentence[1000];
    FILE *fptr;
-   ptr = fopen("program.txt", "w");
+   fptr = fopen("program.txt", "w"); 
    if(fptr == NULL)
    {
       printf("Error!");
