@@ -14,13 +14,16 @@ step 8. Stop
 
 #include<stdio.h>
 #include<conio.h>
+#include<stdlib.h>
 int main()
 {
  int n,i,fact=1;
+ system("color fd");
  printf("Enter any number : ");
  scanf("%d", &n);
  for(i=1; i<=n; i++)
     fact = fact * i;
+    system("color fa");
  printf("Factorial value of %d = %d",n,fact);
  return 0;
 }
