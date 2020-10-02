@@ -1,7 +1,16 @@
+//************ in C**********
 #include <stdio.h>
 int main()
 {
   
    printf("Hello, World!");
    return 0;
+}
+
+// ************ in java ********************
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
 }
