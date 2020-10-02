@@ -1,14 +1,10 @@
-#include <stdio.h>
-int main()
-{
+//code in c++;
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
     int number;
-   
-    prin("Enter an integer:")
-    
-   
-    scanf("%d",&number);  
-    
-  
-    printf("You entered: %d", number);
+    cout<<"Enter the number"<<endl;
+    cin>>number;
+    cout<<"entered number is :"<<number;
     return 0;
 }
