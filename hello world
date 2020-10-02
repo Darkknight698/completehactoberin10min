@@ -1,7 +1,9 @@
+\\hello world code 
+\\nice youtube channel
 #include <stdio.h>
 int main()
 {
-  
+   printf("welcome to the hello world first program")  
    printf("Hello, World!");
    return 0;
 }

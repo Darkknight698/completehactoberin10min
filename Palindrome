@@ -9,7 +9,7 @@
 
 //PROGRAM
 
-    #include<stdio.h>  
+    #include<stdio.h>  // header file use for standerd input output 
     int main()    
     {    
     int n,r,sum=0,temp;    
