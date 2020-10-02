@@ -9,8 +9,8 @@
 
 //PROGRAM
 
-    #include<stdio.h>  
-    int main()    
+    #include<stdio.h>   // Header file
+    int main()          //  main function
     {    
     int n,r,sum=0,temp;    
     printf("enter the number=");    
