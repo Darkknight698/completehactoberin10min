@@ -1,12 +1,22 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h> 
 int main()
 {
-    int number;
-    print("Enter an integer: ");
-    scanf("%d", &number)
-    if(number % 2 == 0)
-        printf("%d is even ", number);
-    else
-        printf("%d is odd ", number);
-    return 0;
+   int n;
+   system("color fd");
+   printf("Enter an integer\n");
+   scanf("%d",&n);
+ 
+   if ( n & 1 == 1 )
+   {
+      system("color fd");
+      printf("Odd\n");
+   }
+   else
+   {
+      system("color fd");
+      printf("Even\n");
+    }
+ 
+   return 0;
 }
