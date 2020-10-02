@@ -10,7 +10,7 @@ step 6. i=i+1
 step 7. Print fact
 step 8. Stop
 
-//PROGRAM
+//program
 
 #include<stdio.h>
 #include<conio.h>
