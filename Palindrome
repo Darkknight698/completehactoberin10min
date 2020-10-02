@@ -15,6 +15,7 @@
     int n,r,sum=0,temp;    
     printf("enter the number=");    
     scanf("%d",&n);    
+    //Palindrome is a number which is same when written both ways
     temp=n;    
     while(n>0)    
     {    
