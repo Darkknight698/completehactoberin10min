@@ -1,7 +1,7 @@
-#include <stdio.h>
-int main()
+#include <stdio.h>  
+int main()      # this was use as the main file
 {
   
-   printf("Hello, World!");
+   printf(" Hello World!");     # printf indicated that its use for the printing
    return 0;
 }
