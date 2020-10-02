@@ -3,5 +3,9 @@ int main()
 {
   
    printf("Hello, World!");
+   printf("this is the word and the word is so ")
+   string x;
+   printf("enter your name");
+   
    return 0;
 }
