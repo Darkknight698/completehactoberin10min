@@ -9,8 +9,8 @@ int main()
    {
       printf("Error!");
       exit(1);
-   }
-   
+  }
+  
    printf("Enter a sentence:\n");
    gets(sentence);
    printf(fptr,"%s", sentence);
