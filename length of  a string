@@ -1,3 +1,4 @@
+//program takes user input as string and runs a loop to cound the no. of characters in a string
 #include <stdio.h>
 int main()
 {
@@ -5,7 +6,7 @@ int main()
     int i;
     printf("Enter a string:");
     scanf("%s", s);
-    for(i = 0; s[i] != '\0'; ++i);
+    for(i = 0; s[i] != '\0'; ++i);//value of i is updated at each iteration and that itself is acting as counter to count the no. of characters
     printf("Length of string: %d", i);
     return 0;
 }
