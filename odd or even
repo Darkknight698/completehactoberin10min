@@ -2,10 +2,10 @@
 int main()
 {
     int number;
-    print("Enter an integer: ");
-    scanf("%d", &number)
-    if(number % 2 == 0)
-        printf("%d is even ", number);
+    print("Enter an integer: ");       # this command is youe for input the number 
+    scanf("%d", &number) 
+    if(number % 2 == 0)                 # in this command we chek the number 
+        printf("%d is even ", number);   
     else
         printf("%d is odd ", number);
     return 0;
