@@ -12,4 +12,7 @@ name: Nilesh Das
 place: Raipur 
 bio: student
 
-
+name: Amrit Anand
+place: Delhi
+bio: student(12th std)
+=======
