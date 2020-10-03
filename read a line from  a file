@@ -15,5 +15,7 @@ int main()
     printf("Data from the file:\n%s", c);
     close(fptr)
     
+    return 0;
+    
    
 }
