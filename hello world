@@ -3,5 +3,6 @@ int main()
 {
   
    printf("Hello, World!");
+   printf("This is for hacktober 2020");
    return 0;
 }
