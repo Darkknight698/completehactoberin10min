@@ -1,26 +1,19 @@
-//ALGORITHM
+#include <stdio.h>
+int main() {
+    int n, i;
+    unsigned long long fact = 1;
+    printf("Enter an integer: ");
+    scanf("%d", &n);
 
-step 1. Start
-step 2. Read the number n
-step 3. [Initialize]
-        i=1, fact=1
-step 4. Repeat step 4 through 6 until i=n
-step 5. fact=fact*i
-step 6. i=i+1
-step 7. Print fact
-step 8. Stop
+    // shows error if the user enters a negative integer
+    if (n < 0)
+        printf("Error! Factorial of a negative number doesn't exist.");
+    else {
+        for (i = 1; i <= n; ++i) {
+            fact *= i;
+        }
+        printf("Factorial of %d = %llu", n, fact);
+    }
 
-//PROGRAM
-
-#include<stdio.h>
-#include<conio.h>
-int main()
-{
- int n,i,fact=1;
- printf("Enter any number : ");
- scanf("%d", &n);
- for(i=1; i<=n; i++)
-    fact = fact * i;
- printf("Factorial value of %d = %d",n,fact);
- return 0;
+    return 0;
 }
