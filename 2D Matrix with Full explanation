@@ -1,0 +1,62 @@
+#include <stdio.h>
+ 
+int main()
+{
+  int m, n, p, q, c, d, k, sum = 0;   // declaring variables for the numbers of rows and columns 
+  int first[10][10], second[10][10], multiply[10][10]; // providing maximum size of the matrix 
+ 
+  printf("Enter number of rows and columns of first matrix\n"); // entering the number of rows and columns on the first matrix
+  scanf("%d%d", &m, &n); // reading the number of rows and columns
+  printf("Enter elements of first matrix\n"); // enter the elemnts on the first matrix
+ 
+  for (c = 0; c < m; c++)   // this for loop is for rows
+    for (d = 0; d < n; d++) // this for loop is for columns
+      scanf("%d", &first[c][d]); //  here the reading will be row wise , as c = 0 and d will 0 to n
+ 
+  printf("Enter number of rows and columns of second matrix\n"); // entering the number of rows and columns on the second matrix 
+  scanf("%d%d", &p, &q); // reading the number of rows and columns
+  
+  
+ // in this if else construct we are checking the number of rows of the first matrix are equal to the number of columns of the second matrix or not
+  if (n != p)  
+    printf("The multiplication isn't possible.\n"); // if they are not equal then we cannot multiply the two matrix, and it will print this statement
+  else     // else we will proceed
+  {
+    printf("Enter elements of second matrix\n"); // by the elements  for the second matrix
+ 
+    for (c = 0; c < p; c++)
+      for (d = 0; d < q; d++)          // loop variable will remain same and we will provide the seconf row number and second column number.
+        scanf("%d", &second[c][d]);
+ 
+ // Steps for the  Calculation of the Resultant  matrix
+ 
+    for (c = 0; c < m; c++)   // the two for loop indicates that we take first row and first column from first and second matrix respectively
+	 {
+      for (d = 0; d < q; d++) 
+	  {
+        for (k = 0; k < p; k++)  // this for is require because , when we traversing the first column of this first matrix row and simultaneously traverse of the second matrix first row and after multiplying this two values then when we are at the second column of the first matrix then simultaneously we will be at second matrix , second row.
+                                     
+		{
+          sum = sum + first[c][k]*second[k][d]; // here index c means the row number of first matrix and d indicates the column number of second matrix, and we are taking k because we have to traverse the columns of first matrix one by one and simultaneously we have to traverse the rows of the second matrix one after other. 
+        }
+ 
+        multiply[c][d] = sum; // we have to store the value in the multiply matrix , so here we have store the sum in the multiply matrix inside multiply c , d that is first row and column
+        sum = 0; // then sum will intialize to zero
+      }
+    }
+  
+  // here is the code of printing the array elements , that is the resultant matrix.
+  
+    printf("Product of the matrices:\n");
+
+    for (c = 0; c < m; c++)
+	 {
+      for (d = 0; d < q; d++)
+        printf("%d\t", multiply[c][d]);
+ 
+      printf("\n");
+    }
+  }
+ 
+  return 0;
+}
