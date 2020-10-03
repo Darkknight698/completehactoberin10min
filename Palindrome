@@ -8,7 +8,7 @@
     Else print not palindrome number
 
 //PROGRAM
-
+//updated the program
     #include<stdio.h>  
     int main()    
     {    
