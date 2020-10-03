@@ -1,0 +1,36 @@
+//This search is time consuming, beacuse run sequentially , so it is also known as sequential search.
+ 
+
+#include <stdio.h>
+int main()
+{
+  int array[10], find, i, n;
+
+  printf("Enter number of elements in array\n");
+  scanf("%d", &n);
+
+  printf("Enter %d integer, to store in the array at the particular location\n", n);
+
+  for (i = 0; i < n; i++)
+    scanf("%d", &array[i]);
+
+  printf("Enter a number to find  \n");
+  scanf("%d", &find);
+
+// logic of the Linear search algorithm , that is comparison will be there with each element
+// when the number is match with the number given by the user it will print present at X location
+// if not then it will print not present 
+ 
+  for (i = 0; i < n; i++)
+  {
+    if (array[i] == find)    
+    {
+      printf("%d is present at location %d.\n", find, i+1);     /// i+1 because array frist index number start with O, so we have to give i+1 to give us the exact location.
+      break;
+    }
+  }
+  if (i == n)
+    printf("%d isn't present in the array.\n", find);
+
+  return 0;
+}
