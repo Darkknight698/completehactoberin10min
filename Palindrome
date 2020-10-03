@@ -7,7 +7,7 @@
     If both numbers are same, print palindrome number
     Else print not palindrome number
 
-//PROGRAM
+//C PROGRAM
 
     #include<stdio.h>  
     int main()    
@@ -27,4 +27,29 @@
     else    
     printf("not palindrome");   
     return 0;  
-    }   
+    }  
+    //java program 
+    import java.util.*;
+    class palindrome
+    {
+    int num=1221;
+    
+    public static void main()
+    {
+    int n=num,sum=0;
+    
+    while(n<0)
+    {
+    int d=n%10;
+    sum=sum*10+d;
+    n=n/10;
+    }
+    
+    if(sum==num)
+    System.out.println("palindrome");
+    else
+    Syste.out.println("not palindrome");
+    }
+    }
+    
+    
