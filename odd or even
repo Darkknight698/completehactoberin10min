@@ -1,3 +1,16 @@
+//ALGORITHM
+
+Step 1: Start
+Step 2: [ Take Input ] Read: Number
+Step 3: Check: If Number%2 == 0 Then
+Print : N is an Even Number.
+Else
+Print : N is an Odd Number.
+Step 4: Exit
+
+
+//PROGRAM
+
 #include <stdio.h>
 int main()
 {
