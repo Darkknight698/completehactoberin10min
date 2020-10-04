@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM MANIPULATION</title>
+    <style>
+        .class2{
+            background: red;
+
+        }
+        .text{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="class1"><h1>DOM MANIPULATION</h1></div>
+    <div class="class1"><h2>Document object model</h2></div>
+    <div id="id1"><p>DOM MANIPULATION-id</p></div>
+    <div id="id2"><p>Document object model</p></div>
+    <script>  
+    // DOM MANIPULATION
+    // 1-DOM-STYLING BY ID
+    document.getElementById('id1').style.border='2px dotted red';    
+    document.getElementById('id2').style.border='2px dotted blue'; 
+    // 2-CONSOLE DISPLAY OF ELEMENTS.
+    let elem = document.getElementById('id1');
+    console.log(elem);   
+    let elemClass=document.getElementsByClassName('class1');
+    console.log(elemClass);
+    console.log(elemClass[0]);
+    // 3-STYLING USING CLASS NAME
+    // elemClass[0].style.background="cyan";
+    elemClass[1].style.background="yellow";
+    // 4-ADDING & removing NEW CLASS TO EXISTING ELEMENT
+    elemClass[0].classList.add("class2");
+    elemClass[0].classList.add("text");
+    elemClass[0].classList.remove("text");
+    //5-ACCESS TO INNER HTML & text
+    console.log(elemClass[0].innerHTML);
+    console.log(elem.innerText);
+    // 6-ACCESS ELEMENT BY TAG NAME
+    let tn=document.getElementsByTagName('p');
+    console.log(tn);
+    // 7- APPEND CHILD
+    createdElement= document.createElement('h1');
+    createdElement.innerText="hello world";
+    tn[0].appendChild(createdElement);
+    // 8-REPLACE CHILD
+    createdElement2= document.createElement('p');
+    createdElement2.innerText="hello para";
+    tn[0].replaceChild(createdElement2,createdElement);
+    // 9-remove child
+    tn[0].removeChild(createdElement2);
+    // 10-ADDITIONAL METHODS
+    /*
+    document.location;
+    document.url;
+    document.domain;
+    document.title;
+    document.scripts;
+    document.forms;
+    */
+    // 11-QUERY SELECTOR
+    // let sel=document.querySelector(.text);
+    console.log(sel);
+    // let sel=document.querySelectorAll(.class1);
+    </script>
+</body>
+</html>
