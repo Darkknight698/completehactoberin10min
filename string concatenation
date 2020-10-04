@@ -1,3 +1,19 @@
+#include <bits/stdc++.h> 
+using namespace std; 
+  
+int main() 
+{ 
+    string init("this is initial string"); 
+    string add(" added now"); 
+  
+    // Appending the string. 
+    init.append(add); 
+  
+    cout << init << endl; 
+    return 0; 
+}
+
+/*
 #include <stdio.h>
 int main()
 {
@@ -17,3 +33,4 @@ int main()
     printf("After concatenation: %s", s1);
     return 0;
 }
+*/
