@@ -1,0 +1,146 @@
+
+SQL> set linesize 120;
+SQL> select *from emp;
+
+     EMPNO ENAME   JOB              MGR HIREEDATE     SALARY       COMM     DEPTNO
+---------- ------- --------- ---------- --------- ---------- ---------- ----------
+      7839 ward    salesman        7982 12-JUL-80       1250          0         20
+      7698 jones   manager         7902 02-DEC-80       2975          0         20
+      7654 martin  salesman        7998 12-SEP-80       1400          0         30
+      7369 black   manager         7602 19-JAN-80       2800          0         30
+      4456 clark   manager         7802 22-FEB-80       2400          0         10
+      5678 scott   analyst         7677 30-MAR-80       3000          0         20
+      7369 king    president       7856 12-APR-80       5000          0         20
+      7422 turner  salesman        7344 12-MAY-80       1500          0         20
+      7782 james   clerk           7602 12-JUN-80       1100          0         30
+      7902 ford    analyst         7902 12-OCT-80        900          0         20
+      7334 ,miller clerk           7002 12-SEP-80       1300          0         30
+
+     EMPNO ENAME   JOB              MGR HIREEDATE     SALARY       COMM     DEPTNO
+---------- ------- --------- ---------- --------- ---------- ---------- ----------
+      7782 heena   analyst         7682 12-AUG-80       1800          0         30
+      7839 ward    salesman        7982 12-JUL-80       1250          0         20
+      7698 jones   manager         7902 02-DEC-80       2975          0         20
+      7654 martin  salesman        7998 12-SEP-80       1400          0         30
+      7369 black   manager         7602 19-JAN-80       2800          0         30
+      4456 clark   manager         7802 22-FEB-80       2400          0         10
+      5678 scott   analyst         7677 30-MAR-80       3000          0         20
+      7369 king    president       7856 12-APR-80       5000          0         20
+      7422 turner  salesman        7344 12-MAY-80       1500          0         20
+      7782 james   clerk           7602 12-JUN-80       1100          0         30
+      7902 ford    analyst         7902 12-OCT-80        900          0         20
+
+     EMPNO ENAME   JOB              MGR HIREEDATE     SALARY       COMM     DEPTNO
+---------- ------- --------- ---------- --------- ---------- ---------- ----------
+      7334 ,miller clerk           7002 12-SEP-80       1300          0         30
+      7782 heena   analyst         7682 12-AUG-80       1800          0         30
+
+24 rows selected.
+
+SQL>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
