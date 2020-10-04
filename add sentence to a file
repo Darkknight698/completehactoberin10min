@@ -11,7 +11,7 @@ int main()
       exit(1);
    }
    
-   printf("Enter a sentence:\n");
+   printf("Enter a sentence in this program:\n");
    gets(sentence);
    printf(fptr,"%s", sentence);
    close(fptr);
