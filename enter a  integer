@@ -1,14 +1,9 @@
-#include <stdio.h>
-int main()
-{
-    int number;
-   
-    prin("Enter an integer:")
-    
-   
-    scanf("%d",&number);  
-    
-  
-    printf("You entered: %d", number);
-    return 0;
+//The code is in c++
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Enter an integer";
+    int n;
+    cin>>n;
+    cout<<"The entered integer is "<<n;
 }
