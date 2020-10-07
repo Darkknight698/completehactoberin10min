@@ -14,7 +14,7 @@ bio: student
 
 name : Aashish
 Place : Delhi
-bio : studentin 12 class and know python and a little html,css
+bio : student of 12 class and know python and a little html
  
 
 
