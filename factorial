@@ -20,7 +20,7 @@ int main()
  printf("Enter any number : ");
  scanf("%d", &n);
 if(n==0)
-{print("the factorial of 0 is 1");
+{printf("the factorial of 0 is %d",fact);
 }
  for(i=1; i<=n; i++)
     fact = fact * i;
