@@ -1,9 +1,12 @@
 #include <stdio.h>
 int main()
 {
+    #create array variables
     char s1[100], s2[100], i;
+    #get string one
     print("Enter string s1: ")
     scan("%s",s1);
+    #loop for copying s1[] to s2[]
     for(i = 0; s1[i] != '\0'; ++i)
     {
         s2[i] = s1[i];
