@@ -2,6 +2,6 @@
 int main()
 {
   
-   printf("Welcome To Hacktober Fest 2020!");
+   printf("Welcome To 2020!");
    return 0;
 }
