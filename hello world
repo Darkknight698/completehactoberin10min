@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include<stdio.h> //its a header file
 int main()
 {
   
-   printf("Hello, World!");
+   printf("Hello World"); // this is used for printing
    return 0;
 }
