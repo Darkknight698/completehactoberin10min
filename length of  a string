@@ -1,11 +1,18 @@
 #include <stdio.h>
 int main()
-{
+{   
+    // declaring a string of 1000 characters
     char s[1000];
+    
+    // declaring a integer to store the value of length of string
     int i;
+    
+    //getting input from user
     printf("Enter a string:");
     scanf("%s", s);
-    for(i = 0; s[i] != '\0'; ++i);
+    
+    // iterating through strings and counting the number of characters
+    for(i = 0; s[i] != '\0'; i++);
     printf("Length of string: %d", i);
     return 0;
 }
