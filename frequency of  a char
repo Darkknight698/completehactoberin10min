@@ -1,3 +1,5 @@
+//program takes a string as input fro user and a key and applies linear search to get the frequency of the key
+//time complexity:O(n),where n is the no. of characters in string
 #include <stdio.h>
 int main()
 {

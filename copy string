@@ -1,3 +1,5 @@
+// this program copies srting from one array to another character by character
+//time complexity of this program is : O(n)
 #include <stdio.h>
 int main()
 {

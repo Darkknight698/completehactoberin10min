@@ -1,3 +1,8 @@
+ALGORITHM:
+1.input a number from user
+2.check remainder when that number is divided by two.
+3. if remainder is 0 ,then number is even else odd.
+4.output the respective statements
 #include <stdio.h>
 int main()
 {
