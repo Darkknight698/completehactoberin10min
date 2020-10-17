@@ -1,7 +1,7 @@
-#include <stdio.h>
-int main()
-{
+#include <stdio.h> //# is a preprocessor directive
+int main() // start of main function.
+{  //curly braces which tell us that it is starting point of our programm.
   
-   printf("Hello, World!");
-   return 0;
-}
+   printf("Hello, World!");//printf is used to print input on console screen.
+   return 0;//It will return 0 because we are using int as a datatype.
+} //End of curly braces will tell that it is for end of our programm
