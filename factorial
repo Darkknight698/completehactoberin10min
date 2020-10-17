@@ -10,17 +10,17 @@ step 6. i=i+1
 step 7. Print fact
 step 8. Stop
 
-//PROGRAM
+//PROGRAM in c++
 
-#include<stdio.h>
-#include<conio.h>
+#inlcyde<bits/stdc++.h>
+using namespace std;
 int main()
 {
  int n,i,fact=1;
- printf("Enter any number : ");
- scanf("%d", &n);
+cout<<"Enter any number : ";
+ cin>>n;
  for(i=1; i<=n; i++)
     fact = fact * i;
- printf("Factorial value of %d = %d",n,fact);
+cout<<"Factorial value of <<n<<" is "<<fact;
  return 0;
 }
