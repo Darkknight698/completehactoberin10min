@@ -2,18 +2,18 @@
 #include <stdlib.h>  /* For exit() function */
 int main()
 {
-   char sentence[1000];
+   char s[1000];
    FILE *fptr;
    ptr = fopen("program.txt", "w");
    if(fptr == NULL)
    {
-      printf("Error!");
+      printf("Sorry its Error!");
       exit(1);
    }
    
-   printf("Enter a sentence:\n");
-   gets(sentence);
-   printf(fptr,"%s", sentence);
+   printf("Enter a sentence of your choice:\n");
+   gets(s);
+   printf(fptr,"%s", s);
    close(fptr);
 
 }
