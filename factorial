@@ -14,13 +14,21 @@ step 8. Stop
 
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
- int n,i,fact=1;
- printf("Enter any number : ");
- scanf("%d", &n);
- for(i=1; i<=n; i++)
-    fact = fact * i;
- printf("Factorial value of %d = %d",n,fact);
- return 0;
+    int n,i=1,f=1;
+    clrscr();
+     
+    printf("\n Enter The Number:");
+    scanf("%d",&n);
+     
+    //LOOP TO CALCULATE FACTORIAL OF A NUMBER
+    while(i<=n)
+    {
+        f=f*i;
+        i++;
+    }
+     
+    printf("\n The Factorial of %d is %d",n,f);
+    getch();
 }
