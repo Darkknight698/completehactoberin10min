@@ -1,0 +1,39 @@
+import java.util.*;
+class Binary
+{
+    public static void main(String args[])
+    {
+        Scanner scan =new Scanner(System.in);
+        System.out.println("Enter a number");
+        int y=scan.nextInt();
+        scan.close();
+        int x=0,z=1;
+        while(y>0)
+        {
+            int d=y%2;
+            z=z*10+d;
+            y=y/2;
+        }
+        while(z>10)
+        {
+            int d=z%10;
+            x=x*10+d;
+            z=z/10;
+        }
+        System.out.println("Binary  number is="+x);
+        int c=0,f=0;
+        while(x>0)
+        {
+            if(x%10==1)
+            c++;
+            else
+            {
+              if(c>f)
+               f=c;
+              c=0;
+            }
+            x=x/10;
+        }
+        System.out.println("Number of consecutive 1's are ="+f);
+    }
+} 
