@@ -9,20 +9,20 @@ Step 5: Repeat the step 2 while number is greater than 0
 #include <stdio.h>
 int main()
 {
-    int number, originalNumber, remainder, result = 0;
+    int n, originalN, remainder, result = 0;
     print("Enter a three digit integer: ");
-    scan("%d", &number);
-    originalNumber = number;
-    while (originalNumber != 0)
+    scan("%d", &n);
+    originalN= n;
+    while (originalN != 0)
     {
-        remainder = originalNumber%10;
+        remainder = originalN%10;
         result += remainder*remainder*remainder;
-        originalNumber /= 10;
+        originalN /= 10;
     }
-    if(result == number)
-        printf("%d is an Armstrong number.",number);
+    if(result == n)
+        printf("%d is an Armstrong number.",n);
     else
-        printf("%d is not an Armstrong number.",number);
+        printf("%d is not an Armstrong number.",n);
  
 }
 
