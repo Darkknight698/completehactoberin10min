@@ -8,6 +8,7 @@ int main()
     scanf("%s", s2);
     // calculate the length of string s1
     // and store it in i
+    i=strlen(s1);
     for(i = 0; s1[i] != '\0'; ++i);
     for(j = 0; s2[j] != '\0'; ++j, ++i)
     {
