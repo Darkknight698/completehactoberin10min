@@ -12,17 +12,17 @@
     #include<stdio.h>  
     int main()    
     {    
-    int n,r,sum=0,temp;    
+    int n,r,sum=0,tem;    
     printf("enter the number=");    
     scanf("%d",&n);    
-    temp=n;    
+    tem=n;    
     while(n>0)    
     {    
     r=n%10;    
     sum=(sum*10)+r;    
     n=n/10;    
     }    
-    if(temp==sum)    
+    if(tem==sum)    
     printf("palindrome number ");    
     else    
     printf("not palindrome");   
