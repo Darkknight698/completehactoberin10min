@@ -1,15 +1,9 @@
 
-name:Shaurya Singh
+name:khushi singh
 place :Delhi
 bio:student of B.Tech
-=======
+college student(CSE)
 
-Raman Kumar
-Dhanbad,Jharkhand
-Bio: college student(CSE)
-=======
-name: Nilesh Das
-place: Raipur 
-bio: student
+
 
 
