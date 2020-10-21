@@ -1,14 +1,14 @@
 //ALGORITHM
 
-step 1. Start
-step 2. Read the number n
-step 3. [Initialize]
-        i=1, fact=1
-step 4. Repeat step 4 through 6 until i=n
-step 5. fact=fact*i
-step 6. i=i+1
-step 7. Print fact
-step 8. Stop
+ Start
+ Read the number n
+ [Initialize]
+  i=1, fact=1
+  Repeat step 4 through 6 until i=n
+  fact=fact*i
+  i=i+1
+ Print fact
+ Stop
 
 //PROGRAM
 
@@ -16,11 +16,11 @@ step 8. Stop
 #include<conio.h>
 int main()
 {
- int n,i,fact=1;
+ int n,x,fact=1;
  printf("Enter any number : ");
  scanf("%d", &n);
- for(i=1; i<=n; i++)
-    fact = fact * i;
+ for(x=1; x<=n; x++)
+    fact = fact * x;
  printf("Factorial value of %d = %d",n,fact);
  return 0;
 }
