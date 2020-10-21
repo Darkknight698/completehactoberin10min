@@ -1,14 +1,14 @@
 #include <stdio.h>
+#include <conio.h>
+
 int main()
 {
-    int number;
+    int no;
    
     prin("Enter an integer:")
     
-   
-    scanf("%d",&number);  
+    scanf("%d",&no);  
     
-  
-    printf("You entered: %d", number);
+    printf("You entered: %d", no);
     return 0;
 }
