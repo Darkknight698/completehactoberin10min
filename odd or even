@@ -1,10 +1,12 @@
+/*THIS IS AN APPLICATION TO DETRRMINE WEATHER A NUMBER IS ODD OR EVEN */
 #include <stdio.h>
 int main()
 {
     int number;
     print("Enter an integer: ");
-    scanf("%d", &number)
-    if(number % 2 == 0)
+    scanf("%d", &number);
+  /*TRUE IF THE NUMBER IS PERFECTLY DIVISIBLE BY 2 */  
+    if(number % 2 == 0);
         printf("%d is even ", number);
     else
         printf("%d is odd ", number);

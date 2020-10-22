@@ -1,9 +1,10 @@
+/*THIS APPLICATION TAKES ANY INTIGER AS INPUT AND DISPLAYS THE INTIGER AS OUTPUT */
 #include <stdio.h>
 int main()
 {
     int number;
-   
-    prin("Enter an integer:")
+  /*ENTER THE INTIGER TO BE DISPLAYED HERE*/ 
+    printf("Enter an integer:");
     
    
     scanf("%d",&number);  

@@ -5,13 +5,13 @@ Step 3: sum the remainder of the number
 Step 4: Divide the number by 10
 Step 5: Repeat the step 2 while number is greater than 0
 
-//PROGRAM BELOW
+//PROGRAM OF ARMSTRONG
 #include <stdio.h>
 int main()
 {
     int number, originalNumber, remainder, result = 0;
-    print("Enter a three digit integer: ");
-    scan("%d", &number);
+    printf("Enter a three digit integer: ");
+    scanf("%d", &number);
     originalNumber = number;
     while (originalNumber != 0)
     {
