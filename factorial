@@ -11,16 +11,17 @@ step 7. Print fact
 step 8. Stop
 
 //PROGRAM
-
-#include<stdio.h>
-#include<conio.h>
-int main()
-{
- int n,i,fact=1;
- printf("Enter any number : ");
- scanf("%d", &n);
- for(i=1; i<=n; i++)
-    fact = fact * i;
- printf("Factorial value of %d = %d",n,fact);
- return 0;
-}
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+   int i,fact=1,number;    
+  cout<<"Enter any Number: ";    
+ cin>>number;    
+  for(i=1;i<=number;i++){    
+      fact=fact*i;    
+  }    
+  cout<<"Factorial of " <<number<<" is: "<<fact<<endl;  
+  return 0;  
+}  
+//code in c++
