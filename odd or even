@@ -2,11 +2,11 @@
 int main()
 {
     int number;
-    print("Enter an integer: ");
+    print("Enter An Integer: ");
     scanf("%d", &number)
     if(number % 2 == 0)
-        printf("%d is even ", number);
+        printf("%d is Even ", number);
     else
-        printf("%d is odd ", number);
+        printf("%d is Odd ", number);
     return 0;
 }
