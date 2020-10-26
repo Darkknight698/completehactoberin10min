@@ -4,7 +4,7 @@ step 1. Start
 step 2. Read the number n
 step 3. [Initialize]
         i=1, fact=1
-step 4. Repeat step 4 through 6 until i=n
+step 4. Repeat step 4 to 6 until i=n
 step 5. fact=fact*i
 step 6. i=i+1
 step 7. Print fact
