@@ -1,7 +1,19 @@
+// Program in C language
+
 #include <stdio.h>
 int main()
 {
   
    printf("Hello, World!");
    return 0;
+}
+
+
+// Program in C++ language
+
+#include <iostream.h>
+int main()
+{
+cout<<"Hello World";
+return 0;
 }
