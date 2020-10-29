@@ -7,7 +7,7 @@ int main()
    gets(str);
    printf("Enter a character to find the frequency: ");
    scanf("%c",&ch);
-   for(i = 0; str[i] != '\0'; ++i)
+   for(i = 0; str[i] != '/0'; ++i)
    {    
        if(ch == str[i])
            frequency++;
