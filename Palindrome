@@ -1,11 +1,11 @@
 //ALGORITHM
 
-    Get the number from user
+   /* Get the number from user
     Hold the number in temporary variable
     Reverse the number
     Compare the temporary number with reversed number
     If both numbers are same, print palindrome number
-    Else print not palindrome number
+    Else print not palindrome number*/
 
 //PROGRAM
 
@@ -23,8 +23,8 @@
     n=n/10;    
     }    
     if(temp==sum)    
-    printf("palindrome number ");    
+    printf("\n palindrome number ");    
     else    
-    printf("not palindrome");   
+    printf("\n not palindrome");   
     return 0;  
     }   
