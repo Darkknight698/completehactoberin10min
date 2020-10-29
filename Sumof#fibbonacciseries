@@ -1,0 +1,19 @@
+#include<stdio.h>
+       int main(){
+       int n,k;
+       long int a=-1,b=1,f,sum=0;
+
+       printf("Enter the number range:\n");
+       scanf("%d",&n);
+       printf("\n Sum of  FIBONACCI SERIES: \n");
+       k=1;
+      while(k<=n){
+      f=a+b;
+     a=b;
+     b=f;
+     sum += f;
+     k++;
+    }
+   printf("\n The Sum is %ld",sum);
+   return 0;
+  }
