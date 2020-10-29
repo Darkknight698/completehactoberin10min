@@ -1,5 +1,5 @@
 //ALGORITHM
-
+/*
 step 1. Start
 step 2. Read the number n
 step 3. [Initialize]
@@ -9,7 +9,7 @@ step 5. fact=fact*i
 step 6. i=i+1
 step 7. Print fact
 step 8. Stop
-
+*/
 //PROGRAM
 
 #include<stdio.h>
