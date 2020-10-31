@@ -12,4 +12,9 @@ name: Nilesh Das
 place: Raipur 
 bio: student
 
+=======
+
+Name : Kandy Arora
+Place: Hisar, Haryana
+Bio  : Student of B.tech
 
