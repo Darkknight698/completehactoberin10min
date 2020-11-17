@@ -1,14 +1,14 @@
 //ALGORITHM
 
-step 1. Start
-step 2. Read the number n
-step 3. [Initialize]
-        i=1, fact=1
-step 4. Repeat step 4 through 6 until i=n
-step 5. fact=fact*i
-step 6. i=i+1
-step 7. Print fact
-step 8. Stop
+//step 1. Start
+//step 2. Read the number n
+//step 3. [Initialize]
+//        i=1, fact=1
+//step 4. Repeat step 4 through 6 until i=n
+//step 5. fact=fact*i
+//step 6. i=i+1
+//step 7. Print fact
+//step 8. Stop
 
 //PROGRAM
 
@@ -17,7 +17,7 @@ step 8. Stop
 int main()
 {
  int n,i,fact=1;
- printf("Enter any number : ");
+ printf("Please enter any number = ");
  scanf("%d", &n);
  for(i=1; i<=n; i++)
     fact = fact * i;
