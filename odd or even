@@ -1,12 +1,11 @@
-#include <stdio.h>
-int main()
-{
-    int number;
-    print("Enter an integer: ");
-    scanf("%d", &number)
-    if(number % 2 == 0)
-        printf("%d is even ", number);
-    else
-        printf("%d is odd ", number);
-    return 0;
+//the code is in c++
+#include<iostream>
+using namespace std;
+int main(){
+   int number;
+   cin>>number;
+   if(number%2==0)
+   cout<<"The number is even";
+   else
+   cout<<"The number is odd";
 }
