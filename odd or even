@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <iostream>
 int main()
 {
     int number;
-    print("Enter an integer: ");
-    scanf("%d", &number)
+    cout<<"Enter an integer: "<<endl;
+    cin>>"%d", &number;
     if(number % 2 == 0)
-        printf("%d is even ", number);
+        cout<<"%d is even ", number<<endl;
     else
-        printf("%d is odd ", number);
+        cout<<"%d is odd ", number<<endl;
     return 0;
 }
