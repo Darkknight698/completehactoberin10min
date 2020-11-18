@@ -3,12 +3,12 @@ int main()
 {
     int number;
    
-    prin("Enter an integer:")
+    printf("Enter an integer:")
     
    
     scanf("%d",&number);  
     
   
-    printf("You entered: %d", number);
+    print("You entered: %d", number);
     return 0;
 }
